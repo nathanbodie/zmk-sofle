@@ -40,7 +40,7 @@
 
     slt: spacebar_layer_tap {
         compatible = "zmk,behavior-hold-tap";
-        label = "SPACE_LAYER_TAP"
+        label = "SPACE_LAYER_TAP";
         #binding-cells = <2>;
         flavor = "tap-preferred";
         tapping-term-ms = <200>;
