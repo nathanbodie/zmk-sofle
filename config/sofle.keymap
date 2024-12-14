@@ -68,7 +68,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp STAR         &kp 7           &kp 8            &kp 9            &kp SLASH          &mmv MOVE_DOWN   &kp BSLH         &kp LPAR         &kp RPAR    &kp PIPE   &kp TILDE         &trans
+&trans      &kp STAR         &kp 7           &kp 8            &kp 9            &kp SLASH          &mmv MOVE_DOWN   &kp UNDER        &kp LPAR         &kp RPAR    &kp PIPE   &kp TILDE         &trans
 &trans      &kp MINUS        &kp 4           &kp 5            &kp 6            &kp PLUS           &mmv MOVE_LEFT   &kp PRCNT        &kp LBRC         &kp RBRC    &kp COLON  &kp SEMI          &trans
 &trans      &kp GRAVE        &kp 1           &kp 2            &kp 3            &kp EQUAL          &mmv MOVE_RIGHT  &kp LBKT         &kp RBKT         &trans      &trans     &trans            &trans
 &kp C_MUTE  &trans           &trans          &kp 0           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
