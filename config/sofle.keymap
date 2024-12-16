@@ -13,8 +13,13 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 &mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <150>;
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    flavor = "tap-unless-interrupted";
+    tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
+    quick-tap-ms = <200>;
+    bindings = <&kp>, <&kp>;
+    hold-trigger-key-positions = <5 6 7 8 9 10>;    // <---[[right-hand keys]]
 };
 
 / {
