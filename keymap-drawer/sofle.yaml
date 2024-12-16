@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: CODE}
   - {t: '$$mdi:keyboard-tab$$', h: NAV}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
-  - $$mdi:apple-keyboard-shift$$
+  - '5'
   - {t: QWERTY, h: toggle}
   CODE:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -388,5 +388,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
