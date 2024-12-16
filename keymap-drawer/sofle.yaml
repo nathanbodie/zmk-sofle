@@ -60,8 +60,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-space$$', h: CODE}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace$$', h: CODE}
-  - {t: '$$mdi:keyboard-tab$$', h: NAV}
+  - {t: '$$mdi:keyboard-tab$$', h: CODE}
+  - {t: '$$mdi:backspace$$', h: NAV}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
   - '5'
   - {t: QWERTY, h: toggle}
