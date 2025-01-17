@@ -15,43 +15,43 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
-  - B
-  - L
-  - D
-  - C
-  - V
+  - Q
+  - W
+  - E
+  - R
+  - T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - J
   - Y
-  - O
   - U
-  - {t: ',', s: <}
+  - I
+  - O
+  - P
   - {t: \, s: '|'}
-  - $$mdi:keyboard-esc$$
-  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - P
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
-  - .
-  - $$mdi:apple-keyboard-shift$$
-  - X
-  - Q
-  - M
-  - W
-  - Z
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - K
-  - F
-  - {t: '''', s: '"'}
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - N
+  - M
+  - {t: ',', s: <}
   - .
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: NAV}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
   - '5'
-  - {t: QWERTY, h: toggle}
+  - {t: GALLIUM, h: toggle}
   CODE:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  QWERTY:
+  GALLIUM:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -210,56 +210,56 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
-  - $$mdi:keyboard-esc$$
-  - A
-  - S
-  - D
-  - F
-  - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - H
-  - J
-  - K
+  - B
   - L
-  - {t: ;, s: ':'}
-  - .
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
+  - D
   - C
   - V
-  - B
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - N
-  - M
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - J
+  - Y
+  - O
+  - U
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: \, s: '|'}
+  - $$mdi:keyboard-esc$$
+  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - P
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - .
+  - $$mdi:apple-keyboard-shift$$
+  - X
+  - Q
+  - M
+  - W
+  - Z
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - K
+  - F
+  - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
+  - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-space$$', h: CODE}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: LAYER0, h: toggle}
+  - {t: '$$mdi:keyboard-tab$$', h: CODE}
+  - {t: '$$mdi:backspace$$', h: NAV}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
+  - '5'
+  - {t: GALLIUM, h: toggle}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
