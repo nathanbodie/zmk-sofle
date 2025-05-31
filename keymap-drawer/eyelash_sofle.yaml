@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: SYMBOL}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '3', h: toggle}
   SYMBOL:
