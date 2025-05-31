@@ -115,7 +115,7 @@ layers:
   - '"'
   - '|'
   - {t: '-', s: _}
-  - '&trabs'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
