@@ -28,17 +28,17 @@ layers:
   - {t: ',', s: <}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
-  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: H, h: LGUI}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - '&hrm LCTRL N'
+  - '&hrm LALT S'
+  - '&hrm LGUI H'
+  - '&hrm LSHFT T'
   - M
   - $$mdi:arrow-left-bold$$
   - Y
-  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: RGUI}
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - '&hrm RSHFT C'
+  - '&hrm RGUI A'
+  - '&hrm RALT E'
+  - '&hrm RCTRL I'
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - X
