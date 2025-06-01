@@ -36,7 +36,7 @@
 #define THUMBS  55 56 57 59 60 61  // Thumb keys
 
 /* Left-hand HRMs */
-hml: home_row_mod_left {
+&hml: home_row_mod_left {
     compatible = "zmk,behavior-hold-tap";
     label = "HOME_ROW_MOD_LEFT";
     #binding-cells = <2>;
@@ -50,7 +50,7 @@ hml: home_row_mod_left {
 };
 
 /* Right-hand HRMs */
-hmr: home_row_mod_right {
+&hmr: home_row_mod_right {
     compatible = "zmk,behavior-hold-tap";
     label = "HOME_ROW_MOD_RIGHT";
     #binding-cells = <2>;
@@ -64,7 +64,7 @@ hmr: home_row_mod_right {
 };
 
 // Keep your original hrm for compatibility if needed
-hrm: home_row_mod {
+&hrm: home_row_mod {
         compatible = "zmk,behavior-hold-tap";
         label = "HOME_ROW_MOD";
         #binding-cells = <2>;
