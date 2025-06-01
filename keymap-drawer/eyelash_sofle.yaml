@@ -315,10 +315,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
-  - LGUI
   - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - LGUI
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
