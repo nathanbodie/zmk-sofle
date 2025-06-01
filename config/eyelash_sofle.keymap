@@ -27,6 +27,16 @@
     trigger-period-ms = <16>;
 };
 
+hrm: home_row_mod {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOME_ROW_MOD";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
+        quick-tap-ms = <150>;
+        global-quick-tap;
+        bindings = <&mo>, <&kp>;
+    };
 
 / {
 
@@ -44,7 +54,7 @@
             bindings = <
 &kp ESC    &kp N1     &kp N2        &kp N3        &kp N4  &kp N5             &kp UP_ARROW     &kp N6          &kp N7        &kp N8        &kp N9           &kp N0                                    &kp BACKSPACE
 &kp TAB    &kp B      &kp F         &kp L         &kp K   &kp Q              &kp DOWN_ARROW   &kp P           &kp G         &kp O         &kp U            &kp COMMA                                 &kp BSLH
-&kp CAPS   &mt LCTRL N      &mt LALT S         &mt LGUI H         &mt LSHFT T   &kp M              &kp LEFT_ARROW   &kp Y           &mt RSHFT C         &mt RGUI A         &mt RALT E   &mt RCTRL I  &kp APOS
+&kp CAPS   &hrm LCTRL N      &hrm LALT S         &hrm LGUI H         &hrm LSHFT T   &kp M              &kp LEFT_ARROW   &kp Y           &hrm RSHFT C         &hrm RGUI A         &hrm RALT E   &hrm RCTRL I  &kp APOS
 &kp LSHFT  &kp X      &kp V         &kp J         &kp D   &kp Z              &kp RIGHT_ARROW  &kp APOS        &kp W         &kp SEMI      &kp SLASH        &kp DOT     &kp ENTER
 &kp C_MUTE &kp LCTRL  &kp LEFT_GUI  &mt LCTRL ESC  &lt 1 R &mt LEFT_GUI RET   &kp ENTER        &mt LSHFT BSPC  &lt 2 SPACE  &mt LALT TAB &kp RIGHT_SHIFT  &tog 3
             >;
