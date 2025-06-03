@@ -104,10 +104,10 @@ behaviors {
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10 &kp F11
-&trans      &kp DOLLAR       &kp LBKT        &kp LBRC         &kp LPAR         &kp PLUS           &mmv MOVE_DOWN   &kp EQUAL        &kp RPAR         &kp RBRC    &kp RBKT   &trans  &kp F12
-&trans      &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &mmv MOVE_LEFT   &kp N6           &kp N7           &kp N8      &kp N9     &kp N0  &kp PERCENT
-&trans      &kp GRAVE        &kp BSLH        &kp LT           &kp GT           &kp EXCL           &mmv MOVE_RIGHT  &kp UNDER        &kp PIPE         &kp MINUS   &trans     &trans  &trans
+&kp GRAVE   &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans   &trans
+&trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_DOWN   &kp F6           &kp F7           &kp F8      &kp F9     &kp F10   &trans
+&trans      &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &mmv MOVE_LEFT   &kp N6           &kp N7           &kp N8      &kp N9     &kp N0    &trans
+&trans      &trans           &kp GRAVE       &kp BSLH         &kp GT           &kp EXCL           &mmv MOVE_RIGHT  &kp UNDER        &kp MINUS        &kp PIPE    &kp F11    &kp F12   &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
@@ -117,11 +117,11 @@ behaviors {
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7        &kp F8        &kp F9       &kp F10       &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp END   &kp PG_DN   &kp PG_UP     &kp HOME     &kp PLUS      &trans
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LEFT  &kp DOWN    &kp UP        &kp RIGHT    &trans        &trans
-&trans     &trans        &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans        &sys_reset    &soft_off    &bootloader   &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans        &trans        &trans       &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6    &kp F7        &kp F8        &kp F9       &kp F10       &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp END   &kp PG_DN     &kp PG_UP     &kp HOME     &kp PLUS      &trans
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT    &trans        &trans
+&trans     &trans        &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans    &trans        &sys_reset    &soft_off    &bootloader   &trans
+&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans    &trans        &trans        &trans       &trans
             >;
 
             display-name = "NAV";
@@ -131,9 +131,9 @@ behaviors {
         layer_3 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans  &trans
-&trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_DOWN   &kp F6           &kp F7           &kp F8      &kp F9     &kp F10 &trans
-&trans      &kp EXCL         &kp AT          &kp HASH         &kp DLLR         &kp PRCNT          &mmv MOVE_LEFT   &kp CARET        &kp AMPS         &kp N8      &kp F11    &kp F12 &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans           &trans           &trans      &trans     &trans  &trans
+&trans      &kp LT           &kp LBKT        &kp LBRC         &kp LPAR         &kp PLUS           &mmv MOVE_DOWN   &kp EQUAL        &kp RPAR         &kp RBRC    &kp RBKT   &kp GT  &kp F12
+&trans      &kp EXCL         &kp AT          &kp HASH         &kp DLLR         &kp PRCNT          &mmv MOVE_LEFT   &kp CARET        &kp AMPS         &trans      &trans     &trans &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
