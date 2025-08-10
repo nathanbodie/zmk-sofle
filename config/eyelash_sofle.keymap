@@ -92,14 +92,14 @@ behaviors {
         layer0 {
             bindings = <
 &kp ESC    &kp N1            &kp N2            &kp N3            &kp N4         &kp N5              &kp UP_ARROW     &kp N6              &kp N7            &kp N8            &kp N9            &kp N0            &kp BACKSPACE
-&kp TAB    &none             &kp L             &kp P             &kp D          &kp F               &kp DOWN_ARROW   &kp APOS            &kp W             &kp O             &kp U             &none             &kp BSLH
+&kp TAB    &kp SEMI          &kp L             &kp P             &kp D          &kp F               &kp DOWN_ARROW   &kp APOS            &kp W             &kp O             &kp U             &kp SLASH         &kp BSLH
 &kp CAPS   &hml LCTRL T      &hml LALT S       &hml LGUI N       &hml LSHFT H   &kp M               &kp LEFT_ARROW   &kp G               &hmr RSHFT C      &hmr RGUI A       &hmr RALT I       &hmr RCTRL E      &kp ENTER
 &kp LSHFT  &kp V             &kp Z             &kp B             &kp K          &kp Q               &kp RIGHT_ARROW  &kp X               &kp Y             &kp DOT           &kp COMMA         &kp J             &kp ENTER
 &kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &mt LCTRL ESC     &lt 1 SPACE    &lt 3 RET           &kp ENTER        &mt LSHFT BSPC      &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "NIGHT";
+            display-name = "BIRDIE";
         };
 
         layer_1 {
