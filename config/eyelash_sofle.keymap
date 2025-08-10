@@ -95,7 +95,7 @@ behaviors {
 &kp TAB    &kp B             &kp F             &kp L             &kp K          &kp Q               &kp DOWN_ARROW   &kp P               &kp G             &kp O             &kp U             &kp COMMA         &kp BSLH
 &kp CAPS   &hml LCTRL N      &hml LALT S       &hml LGUI H       &hml LSHFT T   &kp M               &kp LEFT_ARROW   &kp Y               &hmr RSHFT C      &hmr RGUI A       &hmr RALT E       &hmr RCTRL I      &kp APOS
 &kp LSHFT  &kp X             &kp V             &kp J             &kp D          &kp Z               &kp RIGHT_ARROW  &kp APOS            &kp W             &kp SEMI          &kp SLASH         &kp DOT           &kp ENTER
-&kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &mt LCTRL ESC     &lt 1 R        &lt 3 RET           &kp ENTER        &mt LSHFT BSPC      &lt 2 SPACE       &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
+&kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &mt LCTRL ESC     &lt 1 SPACE    &lt 3 RET           &kp ENTER        &mt LSHFT BSPC      &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
