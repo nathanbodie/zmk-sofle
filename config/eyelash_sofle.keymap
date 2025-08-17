@@ -119,7 +119,6 @@ macros {
             display-name = "NIGHT";
         };
 
-        // NUM Layer - Based on QMK NUM layout
         layer_1 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans   &trans
@@ -133,13 +132,12 @@ macros {
             sensor-bindings = <&scroll_encoder>;
         };
 
-        // NAV Layer - Based on QMK NAV layout  
         layer_2 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans        &trans
-&trans      &kp TAB          &win_switch     &tab_prev        &tab_next        &vol_up            &mmv MOVE_DOWN   &bootloader      &kp HOME         &kp UP      &kp END    &kp DEL        &trans
-&trans      &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &vol_dn            &mmv MOVE_LEFT   &kp CAPS         &kp LEFT         &kp DOWN    &kp RIGHT  &kp BSPC       &trans
-&trans      &trans           &trans          &back_btn        &fwd_btn         &play_pause        &mmv MOVE_RIGHT  &trans           &kp PG_DN        &kp PG_UP   &trans     &kp ENTER        &trans
+&trans      &kp TAB          &win_switch     &tab_prev        &tab_next        &vol_up            &mmv MOVE_DOWN   &bootloader      &kp HOME         &kp BSPC    &kp END    &kp DEL       &trans
+&trans      &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &vol_dn            &mmv MOVE_LEFT   &kp CAPS         &kp LEFT         &kp DOWN    &kp UP     &kp RIGHT     &trans
+&trans      &trans           &trans          &back_btn        &fwd_btn         &play_pause        &mmv MOVE_RIGHT  &trans           &kp PG_DN        &kp PG_UP   &trans     &kp ENTER     &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
@@ -147,7 +145,6 @@ macros {
             sensor-bindings = <&scroll_encoder>;
         };
 
-        // SYM Layer - Based on QMK SYM layout
         layer_3 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans  &trans
