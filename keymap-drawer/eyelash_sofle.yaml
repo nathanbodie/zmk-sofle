@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
   - HOME
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - END
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,8 +167,8 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
