@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  BIRDIE:
+  NIGHT:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -15,43 +15,43 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - {t: ;, s: ':'}
-  - L
-  - P
-  - D
-  - F
-  - $$mdi:arrow-down-bold$$
-  - {t: '''', s: '"'}
-  - W
-  - O
-  - U
-  - {t: /, s: '?'}
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: N, h: LGUI}
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
-  - M
-  - $$mdi:arrow-left-bold$$
-  - G
-  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: RGUI}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
-  - V
-  - Z
   - B
+  - F
+  - L
   - K
   - Q
-  - $$mdi:arrow-right-bold$$
-  - X
-  - Y
-  - {t: ., s: '>'}
+  - $$mdi:arrow-down-bold$$
+  - P
+  - G
+  - O
+  - U
   - {t: ',', s: <}
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: H, h: LGUI}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - M
+  - $$mdi:arrow-left-bold$$
+  - Y
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: RGUI}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - X
+  - V
   - J
+  - D
+  - Z
+  - $$mdi:arrow-right-bold$$
+  - {t: '''', s: '"'}
+  - W
+  - {t: ;, s: ':'}
+  - {t: /, s: '?'}
+  - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
