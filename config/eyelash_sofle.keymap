@@ -95,12 +95,75 @@ macros {
         label = "PLAY_PAUSE";
     };
     
-    // Parameterized macro for Ctrl+Cmd+Opt combinations
-    ctrl_cmd_opt: ctrl_cmd_opt {
-        compatible = "zmk,behavior-macro-one-param";
-        #binding-cells = <1>;
-        bindings = <&macro_param_1to1>, <&kp MACRO_PLACEHOLDER>;
-        label = "CTRL_CMD_OPT";
+    // Aerospace workspace switching macros
+    aero_1: aero_1 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N1)))>;
+        label = "AERO_1";
+    };
+    
+    aero_2: aero_2 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N2)))>;
+        label = "AERO_2";
+    };
+    
+    aero_3: aero_3 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N3)))>;
+        label = "AERO_3";
+    };
+    
+    aero_4: aero_4 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N4)))>;
+        label = "AERO_4";
+    };
+    
+    aero_5: aero_5 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N5)))>;
+        label = "AERO_5";
+    };
+    
+    aero_6: aero_6 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N6)))>;
+        label = "AERO_6";
+    };
+    
+    aero_7: aero_7 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N7)))>;
+        label = "AERO_7";
+    };
+    
+    aero_8: aero_8 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N8)))>;
+        label = "AERO_8";
+    };
+    
+    aero_9: aero_9 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N9)))>;
+        label = "AERO_9";
+    };
+    
+    aero_0: aero_0 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LC(LG(LA(N0)))>;
+        label = "AERO_0";
     };
 };
 
@@ -182,9 +245,9 @@ macros {
         layer_5 {
             bindings = <
 &trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &ctrl_cmd_opt N7     &ctrl_cmd_opt N8     &ctrl_cmd_opt N9     &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &kp LSHIFT       &ctrl_cmd_opt N1     &ctrl_cmd_opt N2     &ctrl_cmd_opt N3     &ctrl_cmd_opt N0     &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &ctrl_cmd_opt N4     &ctrl_cmd_opt N5     &ctrl_cmd_opt N6     &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &aero_7              &aero_8              &aero_9              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &kp LSHIFT       &aero_1              &aero_2              &aero_3              &aero_0              &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &aero_4              &aero_5              &aero_6              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans
             >;
 
