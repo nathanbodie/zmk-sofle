@@ -94,6 +94,14 @@ macros {
         bindings = <&kp C_PP>;
         label = "PLAY_PAUSE";
     };
+    
+    // Parameterized macro for Ctrl+Cmd+Opt combinations
+    ctrl_cmd_opt: ctrl_cmd_opt {
+        compatible = "zmk,behavior-macro-one-param";
+        #binding-cells = <1>;
+        bindings = <&macro_param_1to1>, <&kp MACRO_PLACEHOLDER>;
+        label = "CTRL_CMD_OPT";
+    };
 };
 
     scroll_encoder: scroll_encoder {
@@ -112,7 +120,7 @@ macros {
 &kp TAB    &kp X             &kp F             &kp L             &kp K          &kp Q               &kp DOWN_ARROW   &kp P       &kp G             &kp O             &kp U             &kp COMMA         &kp BSLH
 &kp LALT   &kp N             &kp S             &kp H             &kp T          &kp M               &kp LEFT_ARROW   &kp Y       &kp C             &kp A             &kp E             &kp I             &kp APOS
 &kp LGUI   &kp B             &kp V             &kp J             &kp D          &kp Z               &kp RIGHT_ARROW  &kp APOS    &kp W             &kp SEMI          &kp SLASH         &kp DOT           &kp ENTER
-&kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &mt LCTRL ESC     &lt 1 SPACE    &sk LSHFT           &kp ENTER        &lt 3 BSPC  &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
+&kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &lt 5 ESC         &lt 1 SPACE    &sk LSHFT           &kp ENTER        &lt 3 BSPC  &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -168,6 +176,19 @@ macros {
             >;
 
             display-name = "GAMING";
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_5 {
+            bindings = <
+&trans      &trans                      &trans                      &trans                      &trans           &trans             &trans           &ctrl_cmd_opt PLUS      &trans                      &trans                      &trans             &trans                      &trans
+&trans      &ctrl_cmd_opt N7            &ctrl_cmd_opt N8            &ctrl_cmd_opt N9            &trans           &trans             &trans           &ctrl_cmd_opt N7        &ctrl_cmd_opt N8            &ctrl_cmd_opt N9            &ctrl_cmd_opt PLUS &trans                      &trans
+&trans      &ctrl_cmd_opt N1            &ctrl_cmd_opt N2            &ctrl_cmd_opt N3            &trans           &trans             &trans           &ctrl_cmd_opt N1        &ctrl_cmd_opt N2            &ctrl_cmd_opt N3            &ctrl_cmd_opt N0   &ctrl_cmd_opt MINUS         &trans
+&trans      &ctrl_cmd_opt N4            &ctrl_cmd_opt N5            &ctrl_cmd_opt N6            &trans           &trans             &trans           &ctrl_cmd_opt N4        &ctrl_cmd_opt N5            &ctrl_cmd_opt N6            &trans             &trans                      &trans
+&trans      &trans                      &trans                      &ctrl_cmd_opt N0            &trans           &trans             &trans           &ctrl_cmd_opt N0        &trans                      &trans                      &trans             &trans
+            >;
+
+            display-name = "AEROSPACE";
             sensor-bindings = <&scroll_encoder>;
         };
     };
