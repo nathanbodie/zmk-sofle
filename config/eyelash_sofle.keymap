@@ -181,11 +181,11 @@ macros {
 
         layer_5 {
             bindings = <
+&trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &ctrl_cmd_opt N7     &ctrl_cmd_opt N8     &ctrl_cmd_opt N9     &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &kp LSHIFT       &ctrl_cmd_opt N1     &ctrl_cmd_opt N2     &ctrl_cmd_opt N3     &ctrl_cmd_opt N0     &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &ctrl_cmd_opt N4     &ctrl_cmd_opt N5     &ctrl_cmd_opt N6     &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &ctrl_cmd_opt N7     &ctrl_cmd_opt N8     &ctrl_cmd_opt N9     &trans               &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &kp LSHIFT       &ctrl_cmd_opt N1     &ctrl_cmd_opt N2     &ctrl_cmd_opt N3     &ctrl_cmd_opt N0     &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &ctrl_cmd_opt N4     &ctrl_cmd_opt N5     &ctrl_cmd_opt N6     &trans               &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans
             >;
 
             display-name = "AEROSPACE";
