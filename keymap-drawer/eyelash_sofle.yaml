@@ -341,9 +341,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&ctrl_cmd_opt N7'
-  - '&ctrl_cmd_opt N8'
-  - '&ctrl_cmd_opt N9'
+  - '&aero_7'
+  - '&aero_8'
+  - '&aero_9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -354,10 +354,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - '&ctrl_cmd_opt N1'
-  - '&ctrl_cmd_opt N2'
-  - '&ctrl_cmd_opt N3'
-  - '&ctrl_cmd_opt N0'
+  - '&aero_1'
+  - '&aero_2'
+  - '&aero_3'
+  - '&aero_0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -367,9 +367,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&ctrl_cmd_opt N4'
-  - '&ctrl_cmd_opt N5'
-  - '&ctrl_cmd_opt N6'
+  - '&aero_4'
+  - '&aero_5'
+  - '&aero_6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
