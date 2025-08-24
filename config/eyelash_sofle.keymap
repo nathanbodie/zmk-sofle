@@ -110,8 +110,8 @@ macros {
             bindings = <
 &kp ESC    &kp N1            &kp N2            &kp N3            &kp N4         &kp N5              &kp UP_ARROW     &kp N6      &kp N7            &kp N8            &kp N9            &kp N0            &kp BACKSPACE
 &kp TAB    &kp X             &kp F             &kp L             &kp K          &kp Q               &kp DOWN_ARROW   &kp P       &kp G             &kp O             &kp U             &kp COMMA         &kp BSLH
-&kp CAPS   &kp N             &kp S             &kp H             &kp T          &kp M               &kp LEFT_ARROW   &kp Y       &kp C             &kp A             &kp E             &kp I             &kp APOS
-&kp LSHFT  &kp B             &kp V             &kp J             &kp D          &kp Z               &kp RIGHT_ARROW  &kp APOS    &kp W             &kp SEMI          &kp SLASH         &kp DOT           &kp ENTER
+&kp LALT   &kp N             &kp S             &kp H             &kp T          &kp M               &kp LEFT_ARROW   &kp Y       &kp C             &kp A             &kp E             &kp I             &kp APOS
+&kp LGUI   &kp B             &kp V             &kp J             &kp D          &kp Z               &kp RIGHT_ARROW  &kp APOS    &kp W             &kp SEMI          &kp SLASH         &kp DOT           &kp ENTER
 &kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &mt LCTRL ESC     &lt 1 SPACE    &sk LSHFT           &kp ENTER        &lt 3 BSPC  &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
             >;
 
@@ -123,7 +123,7 @@ macros {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans   &trans
 &trans      &kp N7           &kp N5          &kp N3           &kp N1           &kp N9             &mmv MOVE_DOWN   &kp N8           &kp N0           &kp N2      &kp N4     &kp N6   &trans
-&trans      &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &kp F11            &mmv MOVE_LEFT   &kp F10          &sk RSHFT        &sk RGUI    &sk RALT   &sk RCTRL   &trans
+&kp CAPS    &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &kp F11            &mmv MOVE_LEFT   &kp F10          &sk RSHFT        &sk RGUI    &sk RALT   &sk RCTRL   &trans
 &trans      &kp F7           &kp F5          &kp F3           &kp F1           &kp F9             &mmv MOVE_RIGHT  &kp F8           &kp F12          &kp F2      &kp F4     &kp F6    &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
@@ -135,8 +135,8 @@ macros {
         layer_2 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans        &trans
-&trans      &kp TAB          &win_switch     &tab_prev        &tab_next        &vol_up            &mmv MOVE_DOWN   &bootloader      &kp HOME         &kp BSPC    &kp END    &kp DEL       &trans
-&trans      &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &vol_dn            &mmv MOVE_LEFT   &kp CAPS         &kp LEFT         &kp DOWN    &kp UP     &kp RIGHT     &trans
+&trans      &kp TAB          &win_switch     &tab_prev        &tab_next        &vol_up            &mmv MOVE_DOWN   &bootloader      &kp HOME         &kp BSPC    &kp END    &kp CAPS      &trans
+&trans      &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &vol_dn            &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT  &kp DEL       &trans
 &trans      &trans           &trans          &back_btn        &fwd_btn         &play_pause        &mmv MOVE_RIGHT  &trans           &kp PG_DN        &kp PG_UP   &trans     &kp ENTER     &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
