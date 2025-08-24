@@ -187,7 +187,6 @@ macros {
 &trans           &trans           &ctrl_cmd_opt N4     &ctrl_cmd_opt N5     &ctrl_cmd_opt N6     &trans               &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans
             >;
-            >;
 
             display-name = "AEROSPACE";
             sensor-bindings = <&scroll_encoder>;
