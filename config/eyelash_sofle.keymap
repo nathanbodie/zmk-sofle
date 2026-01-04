@@ -131,70 +131,70 @@ macros {
     aero_1: aero_1 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N1)))>;
+        bindings = <&kp LG(N1))>;
         label = "AERO_1";
     };
     
     aero_2: aero_2 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N2)))>;
+        bindings = <&kp LG(N2)>;
         label = "AERO_2";
     };
     
     aero_3: aero_3 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N3)))>;
+        bindings = <&kp LG(N3)>;
         label = "AERO_3";
     };
     
     aero_4: aero_4 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N4)))>;
+        bindings = <&kp LG(N4)))>;
         label = "AERO_4";
     };
     
     aero_5: aero_5 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N5)))>;
+        bindings = <&kp LG(N5)))>;
         label = "AERO_5";
     };
     
     aero_6: aero_6 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N6)))>;
+        bindings = <&kp LG(N6)))>;
         label = "AERO_6";
     };
     
     aero_7: aero_7 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N7)))>;
+        bindings = <&kp LG(N7)))>;
         label = "AERO_7";
     };
     
     aero_8: aero_8 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N8)))>;
+        bindings = <&kp LG(N8)))>;
         label = "AERO_8";
     };
     
     aero_9: aero_9 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N9)))>;
+        bindings = <&kp LG(N9)))>;
         label = "AERO_9";
     };
     
     aero_0: aero_0 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LC(LG(LA(N0)))>;
+        bindings = <&kp LG(N0)))>;
         label = "AERO_0";
     };
 };
@@ -225,9 +225,9 @@ macros {
         layer_1 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans   &trans
-&trans      &kp N7           &kp N5          &kp N3           &kp N1           &kp N9             &mmv MOVE_DOWN   &kp N8           &kp N0           &kp N2      &kp N4     &kp N6   &trans
-&kp CAPS    &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &kp F11            &mmv MOVE_LEFT   &kp F10          &sk RSHFT        &sk RGUI    &sk RALT   &sk RCTRL   &trans
-&trans      &kp F7           &kp F5          &kp F3           &kp F1           &kp F9             &mmv MOVE_RIGHT  &kp F8           &kp F12          &kp F2      &kp F4     &kp F6    &trans
+&trans      &trans           &trans          &trans           &kp F11          &trans             &mmv MOVE_LEFT   &trans           &kp F12          &trans      &trans     &trans   &trans
+&kp CAPS    &kp N7           &kp N5          &kp N3           &kp N1           &kp N9             &mmv MOVE_DOWN   &kp N8           &kp N0           &kp N2      &kp N4     &kp N6   &trans
+&trans      &kp F7           &kp F5          &kp F3           &kp F1           &kp F9             &mmv MOVE_RIGHT  &kp F8           &kp F10          &kp F2      &kp F4     &kp F6   &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
@@ -239,7 +239,7 @@ macros {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans        &trans
 &trans      &kp TAB          &win_switch     &tab_prev        &tab_next        &vol_up            &mmv MOVE_DOWN   &bootloader      &kp HOME         &kp BSPC    &kp END    &kp CAPS      &trans
-&trans      &sk LCTRL        &sk LALT        &sk LGUI         &sk LSHFT        &vol_dn            &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT  &kp DEL       &trans
+&trans      &trans           &trans          &trans           &trans           &vol_dn            &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT  &kp DEL       &trans
 &trans      &trans           &trans          &back_btn        &fwd_btn         &play_pause        &mmv MOVE_RIGHT  &trans           &kp PG_DN        &kp PG_UP   &trans     &kp ENTER     &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
@@ -252,7 +252,7 @@ macros {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans  &trans
 &trans      &kp ESC          &kp LBKT        &kp LBRC         &kp LPAR         &kp TILDE          &mmv MOVE_DOWN   &kp CARET        &kp RPAR         &kp RBRC    &kp RBKT   &kp GRAVE  &trans
-&trans      &kp MINUS        &kp ASTRK       &kp EQUAL        &kp UNDER        &kp DLLR           &mmv MOVE_LEFT   &kp HASH         &sk RSHFT        &sk RGUI    &sk RALT   &sk RCTRL  &trans
+&trans      &kp MINUS        &kp ASTRK       &kp EQUAL        &kp UNDER        &kp DLLR           &mmv MOVE_LEFT   &kp HASH         &trans           &trans      &trans     &trans     &trans
 &trans      &kp PLUS         &kp PIPE        &kp AT           &kp BSLH         &kp PRCNT          &mmv MOVE_RIGHT  &trans           &kp AMPS         &kp SEMI    &kp COLON  &kp EXCL &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
