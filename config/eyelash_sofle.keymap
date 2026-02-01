@@ -131,7 +131,7 @@ macros {
     hypr_1: hypr_1 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N1))>;
+        bindings = <&kp LG(N1)>;
         label = "AERO_1";
     };
     
@@ -152,49 +152,49 @@ macros {
     hypr_4: hypr_4 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N4)))>;
+        bindings = <&kp LG(N4)>;
         label = "AERO_4";
     };
     
     hypr_5: hypr_5 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N5)))>;
+        bindings = <&kp LG(N5)>;
         label = "AERO_5";
     };
     
     hypr_6: hypr_6 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N6)))>;
+        bindings = <&kp LG(N6)>;
         label = "AERO_6";
     };
     
     hypr_7: hypr_7 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N7)))>;
+        bindings = <&kp LG(N7)>;
         label = "AERO_7";
     };
     
     hypr_8: hypr_8 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N8)))>;
+        bindings = <&kp LG(N8)>;
         label = "AERO_8";
     };
     
     hypr_9: hypr_9 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N9)))>;
+        bindings = <&kp LG(N9)>;
         label = "AERO_9";
     };
     
     hypr_0: hypr_0 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = <&kp LG(N0)))>;
+        bindings = <&kp LG(N0)>;
         label = "AERO_0";
     };
 };
