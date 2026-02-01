@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-esc$$', h: AEROSPACE}
+  - {t: '$$mdi:keyboard-esc$$', h: HYPR}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -216,37 +216,37 @@ layers:
   - (
   - '~'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - ^
+  - {t: '`', s: '~'}
   - )
   - '}'
   - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - '*'
-  - {t: '=', s: +}
-  - _
-  - $
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - '#'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - +
-  - '|'
-  - '@'
-  - {t: \, s: '|'}
-  - '%'
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&'
-  - {t: ;, s: ':'}
-  - ':'
+  - '%'
+  - '#'
+  - {t: '-', s: _}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - '*'
+  - {t: '=', s: +}
+  - '@'
+  - $
+  - ^
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - <
   - '!'
+  - _
+  - '|'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - +
+  - ':'
+  - '>'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,7 @@ layers:
   - RGUI
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
-  AEROSPACE:
+  HYPR:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -341,9 +341,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&aero_7'
-  - '&aero_8'
-  - '&aero_9'
+  - '&hypr_7'
+  - '&hypr_8'
+  - '&hypr_9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -354,10 +354,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - '&aero_1'
-  - '&aero_2'
-  - '&aero_3'
-  - '&aero_0'
+  - '&hypr_1'
+  - '&hypr_2'
+  - '&hypr_3'
+  - '&hypr_0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -367,9 +367,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&aero_4'
-  - '&aero_5'
-  - '&aero_6'
+  - '&hypr_4'
+  - '&hypr_5'
+  - '&hypr_6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
