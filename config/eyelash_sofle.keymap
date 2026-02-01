@@ -127,71 +127,71 @@ macros {
         label = "PLAY_PAUSE";
     };
     
-    // Aerospace workspace switching macros
-    aero_1: aero_1 {
+    // Hyprland workspace switching macros
+    hypr_1: hypr_1 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N1))>;
         label = "AERO_1";
     };
     
-    aero_2: aero_2 {
+    hypr_2: hypr_2 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N2)>;
         label = "AERO_2";
     };
     
-    aero_3: aero_3 {
+    hypr_3: hypr_3 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N3)>;
         label = "AERO_3";
     };
     
-    aero_4: aero_4 {
+    hypr_4: hypr_4 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N4)))>;
         label = "AERO_4";
     };
     
-    aero_5: aero_5 {
+    hypr_5: hypr_5 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N5)))>;
         label = "AERO_5";
     };
     
-    aero_6: aero_6 {
+    hypr_6: hypr_6 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N6)))>;
         label = "AERO_6";
     };
     
-    aero_7: aero_7 {
+    hypr_7: hypr_7 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N7)))>;
         label = "AERO_7";
     };
     
-    aero_8: aero_8 {
+    hypr_8: hypr_8 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N8)))>;
         label = "AERO_8";
     };
     
-    aero_9: aero_9 {
+    hypr_9: hypr_9 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N9)))>;
         label = "AERO_9";
     };
     
-    aero_0: aero_0 {
+    hypr_0: hypr_0 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = <&kp LG(N0)))>;
@@ -250,10 +250,10 @@ macros {
 
         layer_3 {
             bindings = <
-&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans  &trans
-&trans      &kp ESC          &kp LBKT        &kp LBRC         &kp LPAR         &kp TILDE          &mmv MOVE_DOWN   &kp CARET        &kp RPAR         &kp RBRC    &kp RBKT   &kp GRAVE  &trans
-&trans      &kp MINUS        &kp ASTRK       &kp EQUAL        &kp UNDER        &kp DLLR           &mmv MOVE_LEFT   &kp HASH         &trans           &trans      &trans     &trans     &trans
-&trans      &kp PLUS         &kp PIPE        &kp AT           &kp BSLH         &kp PRCNT          &mmv MOVE_RIGHT  &trans           &kp AMPS         &kp SEMI    &kp COLON  &kp EXCL &trans
+&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans     &trans
+&trans      &kp ESC          &kp LBKT        &kp LBRC         &kp LPAR         &kp TILDE          &mmv MOVE_DOWN   &kp GRAVE        &kp RPAR         &kp RBRC    &kp RBKT   &trans     &trans
+&trans      &kp AMPS         &kp PRCNT       &kp HASH         &kp MINUS        &kp BSLH           &mmv MOVE_LEFT   &kp ASTRK        &kp EQUAL        &kp AT      &kp DLLR   &kp CARET  &trans
+&trans      &trans           &kp LT          &kp EXCL         &kp UNDER        &kp PIPE           &mmv MOVE_RIGHT  &trans           &kp PLUS         &kp COLON   &kp GT     &trans     &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
@@ -277,13 +277,13 @@ macros {
         layer_5 {
             bindings = <
 &trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &aero_7              &aero_8              &aero_9              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &kp LSHIFT       &aero_1              &aero_2              &aero_3              &aero_0              &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &aero_4              &aero_5              &aero_6              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &hypr_7              &hypr_8              &hypr_9              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &kp LSHIFT       &hypr_1              &hypr_2              &hypr_3              &hypr_0              &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &hypr_4              &hypr_5              &hypr_6              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans
             >;
 
-            display-name = "AEROSPACE";
+            display-name = "HYPR";
             sensor-bindings = <&scroll_encoder>;
         };
     };
