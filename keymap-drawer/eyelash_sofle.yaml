@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  NIGHT:
+  RACKET:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -15,41 +15,41 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - X
   - F
+  - D
   - L
-  - K
-  - Q
+  - W
+  - J
   - $$mdi:arrow-down-bold$$
-  - P
-  - G
+  - {t: ;, s: ':'}
+  - B
   - O
   - U
   - {t: ',', s: <}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-option$$
-  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-option$$'}
   - {t: H, h: LGUI}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - M
-  - $$mdi:arrow-left-bold$$
-  - Y
   - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
+  - Y
+  - $$mdi:arrow-left-bold$$
+  - Q
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: RGUI}
   - {t: E, h: '$$mdi:apple-keyboard-option$$'}
   - {t: I, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', s: '"'}
   - LGUI
-  - B
+  - X
+  - K
+  - M
+  - G
   - V
-  - J
-  - D
-  - Z
   - $$mdi:arrow-right-bold$$
+  - Z
+  - P
   - {t: '''', s: '"'}
-  - W
-  - {t: ;, s: ':'}
   - {t: /, s: '?'}
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
