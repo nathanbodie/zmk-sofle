@@ -215,7 +215,7 @@ macros {
 &kp TAB    &kp F             &kp D             &kp L             &kp W          &kp J               &kp DOWN_ARROW   &kp SEMI    &kp B             &kp O             &kp U             &kp COMMA         &kp BSLH
 &kp LALT   &hml LCTRL S      &hml LALT T       &hml LGUI H       &hml LSHFT C   &kp Y               &kp LEFT_ARROW   &kp Q       &hmr RSHFT N      &hmr RGUI A       &hmr RALT E       &hmr RCTRL I      &kp APOS
 &kp LGUI   &kp X             &kp K             &kp M             &kp G          &kp V               &kp RIGHT_ARROW  &kp Z       &kp P             &kp APOS          &kp SLASH         &kp DOT           &kp BSPC
-&kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &lt 5 ESC         &lt 1 SPACE    &hml LSHFT ENTER    &kp ENTER        &lt 3 ENTER  &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
+&kp C_MUTE &kp LCTRL         &kp LEFT_GUI      &lt 5 ESC         &lt 1 SPACE    &hml LSHFT ENTER    &kp ENTER        &lt 3 BSPC  &lt 2 R           &mt LALT TAB      &kp RIGHT_SHIFT   &tog 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
