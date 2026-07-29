@@ -197,6 +197,77 @@ macros {
         bindings = <&kp LG(N0)>;
         label = "AERO_0";
     };
+
+    // Aerospace workspace switching macros (alt-cmd-ctrl prefix)
+    aero_1: aero_1 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N1)))>;
+        label = "AEROSPACE_1";
+    };
+
+    aero_2: aero_2 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N2)))>;
+        label = "AEROSPACE_2";
+    };
+
+    aero_3: aero_3 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N3)))>;
+        label = "AEROSPACE_3";
+    };
+
+    aero_4: aero_4 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N4)))>;
+        label = "AEROSPACE_4";
+    };
+
+    aero_5: aero_5 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N5)))>;
+        label = "AEROSPACE_5";
+    };
+
+    aero_6: aero_6 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N6)))>;
+        label = "AEROSPACE_6";
+    };
+
+    aero_7: aero_7 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N7)))>;
+        label = "AEROSPACE_7";
+    };
+
+    aero_8: aero_8 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N8)))>;
+        label = "AEROSPACE_8";
+    };
+
+    aero_9: aero_9 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N9)))>;
+        label = "AEROSPACE_9";
+    };
+
+    aero_0: aero_0 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LA(LG(LC(N0)))>;
+        label = "AEROSPACE_0";
+    };
 };
 
     scroll_encoder: scroll_encoder {
@@ -276,7 +347,7 @@ macros {
 
         layer_5 {
             bindings = <
-&trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&tog 6           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &hypr_7              &hypr_8              &hypr_9              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &kp LSHIFT       &hypr_1              &hypr_2              &hypr_3              &hypr_0              &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &hypr_4              &hypr_5              &hypr_6              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
@@ -284,6 +355,19 @@ macros {
             >;
 
             display-name = "HYPR";
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_6 {
+            bindings = <
+&tog 6           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &aero_7              &aero_8              &aero_9              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &kp LSHIFT       &aero_1              &aero_2              &aero_3              &aero_0              &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &aero_4              &aero_5              &aero_6              &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans
+            >;
+
+            display-name = "AEROSPACE";
             sensor-bindings = <&scroll_encoder>;
         };
     };
