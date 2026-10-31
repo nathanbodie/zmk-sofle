@@ -35,6 +35,9 @@
 #define KEYS_R  6 7 8 9 10 11 12 19 20 21 22 23 24 25 32 33 34 35 36 37 38 45 46 47 48 49 50 51 58 59 60 61 62 63  // Right-hand keys  
 #define THUMBS  55 56 57 59 60 61  // Thumb keys
 
+// Hyprland mainMod (Ctrl+Alt+Super)
+#define HYP(key) LA(LG(LC(key)))
+
 / {
     behaviors {
         /* Left-hand HRMs. */
@@ -347,11 +350,11 @@ macros {
 
         layer_5 {
             bindings = <
-&tog 6           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &aero_7              &aero_8              &aero_9              &trans               &trans           &trans           &kp LA(LG(LC(LS(COMMA))))  &kp LA(LG(LC(LS(DOT))))   &trans           &trans           &trans
-&trans           &kp LSHIFT       &aero_1              &aero_2              &aero_3              &aero_0              &trans           &kp LA(LG(LC(Q)))  &kp LA(LG(LC(LS(M))))      &kp LA(LG(LC(M)))         &trans           &trans           &trans
-&trans           &trans           &aero_4              &aero_5              &aero_6              &trans               &trans           &trans           &kp LA(LG(LC(LS(LBKT))))   &kp LA(LG(LC(LS(RBKT))))  &trans           &trans           &trans
-&trans           &trans           &trans               &trans               &trans               &trans               &trans           &trans           &trans           &trans           &trans           &trans
+&tog 6           &kp HYP(O)       &kp HYP(A)           &kp HYP(T)           &kp HYP(G)           &trans               &trans           &trans               &trans               &trans                   &trans                   &trans                   &trans
+&trans           &trans           &aero_7              &aero_8              &aero_9              &trans               &trans           &kp HYP(Q)           &kp HYP(V)           &kp HYP(E)               &kp HYP(C)               &kp HYP(ESC)             &trans
+&trans           &kp LSHIFT       &aero_1              &aero_2              &aero_3              &aero_0              &trans           &kp HYP(H)           &kp HYP(J)           &kp HYP(K)               &kp HYP(L)               &kp HYP(S)               &trans
+&trans           &trans           &aero_4              &aero_5              &aero_6              &trans               &trans           &kp HYP(LS(M))       &kp HYP(M)           &kp HYP(LS(COMMA))       &kp HYP(LS(DOT))         &kp HYP(LS(LBKT))        &kp HYP(LS(RBKT))
+&trans           &trans           &trans               &trans               &trans               &trans               &kp HYP(RET)     &trans               &kp HYP(R)           &kp HYP(TAB)             &trans                   &trans
             >;
 
             display-name = "HYPR";
