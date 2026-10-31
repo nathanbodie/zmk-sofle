@@ -327,10 +327,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   HYPR:
   - {t: HYPRLAND_FLAG, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+Ctl+O
+  - Alt+Gui+Ctl+A
+  - Alt+Gui+Ctl+T
+  - Alt+Gui+Ctl+G
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -346,11 +346,11 @@ layers:
   - '&aero_9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Hyper+,', s: Hyper+<}
-  - {t: Hyper+., s: Hyper+>}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+Ctl+Q
+  - Alt+Gui+Ctl+V
+  - Alt+Gui+Ctl+E
+  - Alt+Gui+Ctl+C
+  - Alt+Gui+Ctl+$$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -359,11 +359,11 @@ layers:
   - '&aero_3'
   - '&aero_0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+Ctl+Q
-  - Hyper+M
-  - Alt+Gui+Ctl+M
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+Ctl+H
+  - Alt+Gui+Ctl+J
+  - Alt+Gui+Ctl+K
+  - Alt+Gui+Ctl+L
+  - Alt+Gui+Ctl+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -372,22 +372,22 @@ layers:
   - '&aero_6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+M
+  - Alt+Gui+Ctl+M
+  - {t: 'Hyper+,', s: Hyper+<}
+  - {t: Hyper+., s: Hyper+>}
   - {t: 'Hyper+[', s: 'Hyper+{'}
   - {t: 'Hyper+]', s: 'Hyper+}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Alt+Gui+Ctl+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+Ctl+R
+  - Alt+Gui+Ctl+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   HYPRLAND_FLAG:
