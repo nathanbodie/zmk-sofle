@@ -359,7 +359,7 @@ layers:
   - '&aero_3'
   - '&aero_0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+Ctl+Q
   - Hyper+M
   - Alt+Gui+Ctl+M
   - {t: '$$mdi:transfer$$', type: trans}
